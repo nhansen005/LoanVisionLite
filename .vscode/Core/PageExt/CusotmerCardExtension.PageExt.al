@@ -1,5 +1,6 @@
 pageextension 14135101 "CusotmerCardExtension" extends "Customer Card"
 {
+    Caption = 'Customer Info';
 
     actions
     {
