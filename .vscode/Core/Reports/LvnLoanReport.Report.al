@@ -4,6 +4,8 @@ report 14135100 "LvnLoanReport"
     UsageCategory = Administration;
     ApplicationArea = All;
     DefaultLayout = RDLC;
+    WordLayout = 'lvnLoanReport.docx';
+    RDLCLayout = 'lvnLoanReport.RDLC';
 
 
 
@@ -25,6 +27,15 @@ report 14135100 "LvnLoanReport"
 
         }
     }
+
+    labels
+    {
+        Document_Title = 'Loan Report';
+        Company_Name = 'Bestborn Busines Solutions';
+        Company_Address = '507 W Newton St #2, Greensburg, PA 15601';
+    }
+
+
 
 
 }
