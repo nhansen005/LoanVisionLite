@@ -33,6 +33,8 @@ page 14135100 "lvnLoanList"
                 field("Property State"; Rec."Property State") { ApplicationArea = All; }
 
                 field("Loan Type"; Rec."Loan Type") { ApplicationArea = All; }
+
+
             }
         }
 
