@@ -22,35 +22,6 @@
       </Page>
     </ReportSection>
   </ReportSections>
-  <ReportParameters>
-    <ReportParameter Name="Document_Title">
-      <DataType>String</DataType>
-      <DefaultValue>
-        <Values>
-          <Value>Document_Title</Value>
-        </Values>
-      </DefaultValue>
-      <Prompt>Document_Title</Prompt>
-    </ReportParameter>
-    <ReportParameter Name="Company_Name">
-      <DataType>String</DataType>
-      <DefaultValue>
-        <Values>
-          <Value>Company_Name</Value>
-        </Values>
-      </DefaultValue>
-      <Prompt>Company_Name</Prompt>
-    </ReportParameter>
-    <ReportParameter Name="Company_Address">
-      <DataType>String</DataType>
-      <DefaultValue>
-        <Values>
-          <Value>Company_Address</Value>
-        </Values>
-      </DefaultValue>
-      <Prompt>Company_Address</Prompt>
-    </ReportParameter>
-  </ReportParameters>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""
@@ -102,6 +73,18 @@ End Function
         <Field Name="Borrower_Last_Name">
           <DataField>Borrower_Last_Name</DataField>
         </Field>
+        <Field Name="Property_Address">
+          <DataField>Property_Address</DataField>
+        </Field>
+        <Field Name="Property_City">
+          <DataField>Property_City</DataField>
+        </Field>
+        <Field Name="Property_State">
+          <DataField>Property_State</DataField>
+        </Field>
+        <Field Name="Property_Zip_Code">
+          <DataField>Property_Zip_Code</DataField>
+        </Field>
         <Field Name="Loan_Amount">
           <DataField>Loan_Amount</DataField>
         </Field>
@@ -117,20 +100,17 @@ End Function
         <Field Name="Loan_Term">
           <DataField>Loan_Term</DataField>
         </Field>
-        <Field Name="Property_Address">
-          <DataField>Property_Address</DataField>
-        </Field>
-        <Field Name="Property_City">
-          <DataField>Property_City</DataField>
-        </Field>
-        <Field Name="Property_Zip_Code">
-          <DataField>Property_Zip_Code</DataField>
-        </Field>
-        <Field Name="Property_State">
-          <DataField>Property_State</DataField>
-        </Field>
         <Field Name="Loan_Type">
           <DataField>Loan_Type</DataField>
+        </Field>
+        <Field Name="DocumentTitleLbl">
+          <DataField>DocumentTitleLbl</DataField>
+        </Field>
+        <Field Name="CompanyNameLbl">
+          <DataField>CompanyNameLbl</DataField>
+        </Field>
+        <Field Name="CompanyAddressLbl">
+          <DataField>CompanyAddressLbl</DataField>
         </Field>
       </Fields>
       <Query>

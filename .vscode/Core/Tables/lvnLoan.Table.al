@@ -67,7 +67,9 @@ table 14135100 "lvnLoan"
             TableRelation = lvnLoanType;
         }
 
+
     }
+
 
     keys
     {
@@ -87,6 +89,12 @@ table 14135100 "lvnLoan"
 
         //RaiseEvent(Rec);
     end;
+
+
+
+
+
+
 
 
     /* [BusinessEvent(true)]
