@@ -21,6 +21,25 @@ pageextension 14135102 "SalesInvoiceExtension" extends "Sales Invoice"
             }
         }
 
+        addlast("F&unctions")
+        {
+            action(ExportJson)
+            {
+                Caption = 'Export to Json';
+                Promoted = true;
+                PromotedCategory = Process;
+                Image = Export;
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    ExportToJson: Codeunit "ExportSalesToJson";
+                begin
+                    ExportToJson.ExportDocs();
+                end;
+            }
+        }
+
     }
 
 }
