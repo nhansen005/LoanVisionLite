@@ -83,24 +83,7 @@ table 14135100 "lvnLoan"
         }
     }
 
-    trigger OnInsert()
-    begin
-        //Message(rec."Borrower First Name" + ' ' + rec."Borrower Last Name");
 
-        //RaiseEvent(Rec);
-    end;
-
-
-
-
-
-
-
-
-    /* [BusinessEvent(true)]
-     local procedure RaiseEvent(var lvnLoan: Record lvnLoan)
-     begin
-     end;*/
 
 
 
