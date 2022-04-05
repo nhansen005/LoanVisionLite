@@ -25,6 +25,7 @@ codeunit 14135101 "ExportSalesToJson"
         if SalesInvoiceLine.FindSet() then
             repeat
 
+
                 Clear(SalesIvoiceLineJson);
                 SalesIvoiceLineJson.Add(SalesInvoiceLine.FieldCaption("No."), SalesInvoiceLine."No.");
                 SalesIvoiceLineJson.Add(SalesInvoiceLine.FieldCaption(Description), SalesInvoiceLine.Description);

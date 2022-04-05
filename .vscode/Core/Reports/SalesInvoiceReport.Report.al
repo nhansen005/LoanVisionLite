@@ -29,7 +29,6 @@ report 14135101 "SalesInvoiceReport"
             column(CustomerPONumber; SalesInvoiceHeader."External Document No.") { }
             column(OrderNo_Lbl; OrderNo_Lbl) { }
             column(Order_NO; SalesInvoiceHeader."Order No.") { }
-            //column(SalesName; SalespersonPurchaser.Name) { }
             column(PaymentTermsCodeLbl; PaymentTermsCodeLbl) { }
             column(Payment_Terms_Code; "Payment Terms Code") { }
             column(DocumentDate_Lbl; DocumentDate_Lbl) { }
@@ -61,63 +60,6 @@ report 14135101 "SalesInvoiceReport"
                 column(Description_Line; Description) { }
                 column(Description_Line_Lbl; FieldCaption(Description)) { }
 
-
-
-
-
-                /* column(AmountExcludingVAT_Line; Amount)
-                 {
-                     AutoFormatExpression = GetCurrencyCode();
-                     AutoFormatType = 1;
-                 }
-                 column(AmountExcludingVAT_Line_Lbl; FieldCaption(Amount)) { }
-
-                 column(AmountIncludingVAT_Line; "Amount Including VAT")
-                 {
-                     AutoFormatExpression = GetCurrencyCode();
-                     AutoFormatType = 1;
-                 }
-                 column(AmountIncludingVAT_Line_Lbl; FieldCaption("Amount Including VAT"))
-                 {
-                     AutoFormatExpression = GetCurrencyCode();
-                     AutoFormatType = 1;
-                 }
-                 column(Description_Line; Description) { }
-
-                 column(Description_Line_Lbl; FieldCaption(Description)) { }
-
-                 column(LineDiscountPercent_Line; "Line Discount %") { }
-
-                 column(LineAmount_Line_Lbl; FieldCaption("Line Amount")) { }
-
-                 column(ItemNo_Line; "No.") { }
-
-                 column(ItemNo_Line_Lbl; FieldCaption("No.")) { }
-
-                 column(ItemReferenceNo_Line; "Item Reference No.") { }
-
-                 column(ItemReferenceNo_Line_Lbl; FieldCaption("Item Reference No.")) { }
-
-                 column(ShipmentDate_Line; Format("Shipment Date")) { }
-
-
-                 column(Quantity_Line_Lbl; FieldCaption(Quantity)) { }
-
-
-                 column(Type_Line; Format(Type)) { }
-
-                 column(UnitPrice_Lbl; FieldCaption("Unit Price")) { }
-
-                 column(UnitOfMeasure; "Unit of Measure") { }
-
-                 column(UnitOfMeasure_Lbl; FieldCaption("Unit of Measure")) { }
-
-                 column(VATIdentifier_Line; "VAT Identifier") { }
-
-                 column(VATIdentifier_Line_Lbl; FieldCaption("VAT Identifier")) { }
-
-
-                 column(VATPct_Line_Lbl; FieldCaption("VAT %")) { }**/
             }
         }
 
